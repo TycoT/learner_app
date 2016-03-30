@@ -1,0 +1,235 @@
+<html>
+    <head>
+        <title>Learn THIS!</title>
+        <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-app="learnerApp" ng-controller="MainCtrl">
+        <div class="ui large top fixed hidden menu">
+          <div class="ui container">
+            <a class="active item">Home</a>
+            <a class="item">Work</a>
+            <a class="item">Company</a>
+            <a class="item">Careers</a>
+            <div class="right menu">
+              <div class="item">
+                <a class="ui button">Log in</a>
+              </div>
+              <div class="item">
+                <a class="ui primary button">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <div class="ui vertical inverted sidebar menu left">
+          <a class="active item">Home</a>
+          <a class="item">Work</a>
+          <a class="item">Company</a>
+          <a class="item">Careers</a>
+          <a class="item">Login</a>
+          <a class="item">Signup</a>
+        </div>
+
+
+        <!-- Page Contents -->
+        <div class="pusher">
+          <div class="ui inverted vertical masthead center aligned segment">
+
+            <div class="ui container">
+              <div class="ui large secondary inverted pointing menu">
+                <a class="toc item">
+                  <i class="sidebar icon"></i>
+                </a>
+                <a class="active item">Home</a>
+                <a class="item">Work</a>
+                <a class="item">Company</a>
+                <a class="item">Careers</a>
+                <div class="right item">
+                  <a class="ui inverted button">Log in</a>
+                  <a class="ui inverted button">Sign Up</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="ui text container">
+              <h1 class="ui inverted header">
+                Imagine-a-Company
+              </h1>
+              <h2>Do whatever you want when you want to.</h2>
+              <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+            </div>
+
+          </div>
+
+          <div class="ui vertical stripe segment">
+            <div class="ui equal width stackable internally celled grid">
+              <div class="center aligned row">
+                <div class="column">
+                    <h2> Working List</h2>
+                      <div class="ui middle aligned divided list">
+                        <div class="item">
+                          <div class="right floated content">
+                            <div class="ui button">Add</div>
+                          </div>
+                          <img class="ui avatar image" src="/images/avatar2/small/lena.png">
+                          <div class="content">
+                            Lena
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="right floated content">
+                            <div class="ui button">Add</div>
+                          </div>
+                          <img class="ui avatar image" src="/images/avatar2/small/lindsay.png">
+                          <div class="content">
+                            Lindsay
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="right floated content">
+                            <div class="ui button">Add</div>
+                          </div>
+                          <img class="ui avatar image" src="/images/avatar2/small/mark.png">
+                          <div class="content">
+                            Mark
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="right floated content">
+                            <div class="ui button">Add</div>
+                          </div>
+                          <img class="ui avatar image" src="/images/avatar2/small/molly.png">
+                          <div class="content">
+                            Molly
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                  <h2> Encoding List</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ui vertical stripe segment">
+            <div class="ui four statistics">
+              <div class="statistic">
+                <div class="value">
+                  22
+                </div>
+                <div class="label">
+                  Saves
+                </div>
+              </div>
+              <div class="statistic">
+                <div class="text value">
+                  Three<br>
+                  Thousand
+                </div>
+                <div class="label">
+                  Signups
+                </div>
+              </div>
+              <div class="statistic">
+                <div class="value">
+                  <i class="plane icon"></i> 5
+                </div>
+                <div class="label">
+                  Flights
+                </div>
+              </div>
+              <div class="statistic">
+                <div class="value">
+                  <img src="/images/avatar/small/joe.jpg" class="ui circular inline image">
+                  42
+                </div>
+                <div class="label">
+                  Team Members
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ui vertical stripe segment">
+            <div class="ui top attached tabular menu">
+              <a class="item active" data-tab="first">First</a>
+              <a class="item" data-tab="second">Second</a>
+              <a class="item" data-tab="third">Third</a>
+            </div>
+            <div class="ui bottom attached tab segment active" data-tab="first">
+              First
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="second">
+              Second
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="third">
+              Third
+            </div>
+          </div>
+         
+
+
+          <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+              <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                  <h4 class="ui inverted header">About</h4>
+                  <div class="ui inverted link list">
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">Sitemap</a>
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">Contact Us</a>
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">Religious Ceremonies</a>
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">Gazebo Plans</a>
+                  </div>
+                </div>
+                <div class="three wide column">
+                  <h4 class="ui inverted header">Services</h4>
+                  <div class="ui inverted link list">
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">Banana Pre-Order</a>
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">DNA FAQ</a>
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">How To Access</a>
+                    <a href="http://semantic-ui.com/examples/homepage.html#" class="item">Favorite X-Men</a>
+                  </div>
+                </div>
+                <div class="seven wide column">
+                  <h4 class="ui inverted header">Footer Header</h4>
+                  <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div ng-repeat="post in posts">
+            {{post.title}} <span style="color:blue">{{post.tags}}</span>
+            <br/>
+            {{post.content}}
+            <br/>
+            {{post.tags}}
+            <br/>
+            {{post.date}}
+            <br/>
+        </div>
+        <form ng-submit="addPost()" style="margin-top:30px;">
+            <h3>Add a new post</h3>
+
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Title" ng-model="title"></input>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Tags" ng-model="tags"></input>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Content" ng-model="content"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="semantic/semantic.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </body>
+</html>
